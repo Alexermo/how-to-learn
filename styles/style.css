@@ -7,8 +7,8 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  
-  
+
+
 }
 
 .header {
@@ -20,37 +20,23 @@
   position: relative;
   display: flex;
   z-index: -6;
- 
+
   /* выше установили ограничения для секции */
 }
 
 
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
 
-.logo {}
+
+.logo {
+  width: 228px;
+  height: 32px;
+}
 
 .logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
   z-index: -1;
-  background-repeat: no-repeat;
-}
-
-.header__main-illustration {
-  width: 765px;
-  height: 608px;
-  position: absolute;
-  bottom: 1px;
-  right: 1px;
-  z-index: -4;
-  background-repeat: no-repeat;
 }
 
 .header__title {
@@ -62,7 +48,7 @@
   align-items: center;
   margin-left: 64px;
   z-index: -2;
-  
+
 }
 
 .header__subtitle {
@@ -76,24 +62,40 @@
   z-index: -3;
 }
 
+
 .header__link {
   color: #2f80ed;
+
 }
 
+.header__main-illustration {
+  width: 765px;
+  height: 608px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  z-index: -4;
+}
 
-
-
-
+/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+.header__square-pic {
+  height: 568px;
+  width: 568px;
+  background-color:  #2f80ed;
+  position: absolute;
+  top: 64px;
+  right: 0;
+  z-index: -5;
+}
 
 .description {
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
 }
 .two-columns {
   display: flex;
   width: 80%;
-  min-width: 784px;
   justify-content: space-between;
   margin-top: 100px;
   margin-bottom: 100px;
@@ -108,9 +110,10 @@
 }
 
 .two-columns__main-text {
-  flex-direction: column; 
+  flex-direction: column;
   align-content: space-between;
   width: 80%;
+  min-width: 784px;
 }
 .two-columns__paragraph {
   font-weight: normal;
@@ -118,13 +121,68 @@
   font-size: 24px;
 }
 
+.feynman {
+  height: 890px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background-color:  #f2f2f2;
+  z-index: -5;
+  border: red 1px solid;
+}
+
+.feynman__title {
+  display: flex;
+
+  width: 648px;
+  margin-top: 100px;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 600;
+  border: red 1px solid;
+}
+
+.feynman__subtitle {
+  display: flex;
+  margin-top: 70px;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  border: red 1px solid;
+}
+
+.feynman__link {
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  color: #2f80ed;
+  text-decoration: none;
+  border: red 1px solid;
+}
+
+.feynman__main-illustration {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 867px;
+  height: 637px;
+  z-index: -4;
+  border: red 1px solid;
+}
+
+
 .footer {
   min-height: 350px;
   display: flex;
   justify-content: center;
   color: #f2f2f2;
   background-color: #1f1f1f
-  
+
 }
 
 .footer__columns {
@@ -141,20 +199,19 @@
  height: 100%;
  position: relative;
  border: red 1px solid;
- 
+
 }
 
 .logo_footer_place {
-  
-  
+
+
   background-color: white;
-  width: 228px;
-  height: 32px;
+
   border: red 1px solid;
 }
 
 .footer__author {
-  position: absolute; 
+  position: absolute;
   bottom: 18px;
   margin-top: 18px;
   color: #f2f2f2;
@@ -169,10 +226,10 @@
 
 
 .footer_columns_info_content {
-  display: flex;  
+  display: flex;
   flex-direction: column;
   border: red 1px solid;
- 
+
 }
 
 .footer__column-heading {
@@ -191,12 +248,12 @@
   list-style: none;
   border: red 1px solid;
   position: relative;
-  
-  
-  
+
+
+
   /*  можно сделать модификатор на размеры для других текстов */
-  
-  
+
+
 }
 
 .footer_column-link {
@@ -204,8 +261,8 @@
   font-size: 18px;
   font-weight: normal;
   text-decoration: none;
-  
-  
+
+
   border: red 1px solid;
 }
 
@@ -225,5 +282,11 @@
   border: red 1px solid;
 }
 
-
+/* и элемента с модификатором вида ключ-значение */
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
+}
 
