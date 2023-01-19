@@ -7,8 +7,6 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
-
-
 }
 
 .header {
@@ -20,8 +18,7 @@
   position: relative;
   display: flex;
   z-index: -6;
-
-  /* выше установили ограничения для секции */
+ /* выше установили ограничения для секции */
 }
 
 
@@ -48,7 +45,6 @@
   align-items: center;
   margin-left: 64px;
   z-index: -2;
-
 }
 
 .header__subtitle {
@@ -62,10 +58,8 @@
   z-index: -3;
 }
 
-
 .header__link {
   color: #2f80ed;
-
 }
 
 .header__main-illustration {
@@ -297,20 +291,12 @@
   z-index: -2;
 }
 
-
-
-
-
-
-
-
 .footer {
   min-height: 350px;
   display: flex;
   justify-content: center;
   color: #f2f2f2;
   background-color: #1f1f1f
-
 }
 
 .footer__columns {
@@ -338,13 +324,11 @@ margin: 0;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-
 }
 
 .footer_columns_info_content {
   display: flex;
   flex-direction: column;
-
 }
 
 .footer__column-heading {
@@ -354,7 +338,6 @@ margin: 0;
   font-size: 18px;
   font-weight: 600;
   color: #f2f2f2;
-
 }
 
 
@@ -369,11 +352,8 @@ margin: 0;
   font-size: 18px;
   font-weight: normal;
   text-decoration: none;
-
-
+  color: white;
 }
-
-
 
 .footer_columns_social_content {
   display: flex;
