@@ -315,7 +315,7 @@
   margin-bottom: 40px;
 }
 
-.footer__column_content {
+.footer__column {
 display: flex;
  flex-direction: column;
 }
