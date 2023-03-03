@@ -1,0 +1,4 @@
+.rotation {
+transition: 20s linear;
+  transform: rotate(360deg);
+}

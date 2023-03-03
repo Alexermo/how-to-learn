@@ -1,0 +1,5 @@
+.cards__title {
+  display: flex;
+  text-align: center;
+  margin: auto;
+}

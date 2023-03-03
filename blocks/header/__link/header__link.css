@@ -2,4 +2,10 @@
   color: #2f80ed;
   text-decoration: none;
   z-index: 7;
+
+}
+
+.header__link:hover {
+  opacity: 0.3;
+  transition-delay: .2s;
 }
